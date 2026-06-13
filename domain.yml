@@ -1,0 +1,45 @@
+version: "3.1"
+
+intents:
+  - salutation
+  - au_revoir
+  - merci
+  - inscription
+  - examens
+  - horaires
+  - bibliotheque
+  - contact
+  - localisation
+  - aide
+
+responses:
+
+  utter_salutation:
+    - text: "Bonjour 👋, comment puis-je vous aider ?"
+
+  utter_au_revoir:
+    - text: "Au revoir 👋, bonne journée !"
+
+  utter_merci:
+    - text: "Avec plaisir 😊"
+
+  utter_inscription:
+    - text: "Les inscriptions commencent en septembre."
+
+  utter_examens:
+    - text: "Les examens sont prévus en janvier."
+
+  utter_horaires:
+    - text: "Les horaires sont de 8h à 18h."
+
+  utter_bibliotheque:
+    - text: "La bibliothèque est ouverte de 8h à 20h."
+
+  utter_contact:
+    - text: "Contact administration : admin@univ.ma"
+
+  utter_localisation:
+    - text: "Le département informatique est au bâtiment A."
+
+  utter_aide:
+    - text: "Je peux vous aider sur les inscriptions, examens et horaires."
