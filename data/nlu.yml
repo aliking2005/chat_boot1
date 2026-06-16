@@ -1,0 +1,130 @@
+version: "3.1"
+
+nlu:
+
+- intent: salutation
+  examples: |
+    - bonjour
+    - salut
+    - bonsoir
+    - hello
+    - hey
+    - bonjour à vous
+    - salut tout le monde
+    - coucou
+    - bjr
+    - slt
+    - bonjour je voudrais une information
+    - bonjour j'ai une question
+    - bonjour pouvez-vous m'aider
+
+- intent: au_revoir
+  examples: |
+    - au revoir
+    - bye
+    - à bientôt
+    - à plus
+    - ciao
+    - adieu
+    - à tout à l'heure
+    - au revoir merci
+    - bonne soirée
+    - bonne journée
+
+- intent: merci
+  examples: |
+    - merci
+    - merci beaucoup
+    - je te remercie
+    - merci bien
+    - merci pour l'info
+    - merci pour votre aide
+    - je vous remercie
+    - grand merci
+
+- intent: inscription
+  examples: |
+    - comment s'inscrire
+    - inscription université
+    - procédure d'inscription
+    - je veux m'inscrire
+    - comment faire l'inscription
+    - comment je peux m'inscrire
+    - quels sont les documents pour l'inscription
+    - dossier d'inscription
+    - inscription en ligne
+    - comment s'inscrire à la fac
+    - je souhaite m'inscrire
+    - délai d'inscription
+    - date limite d'inscription
+    - quand ouvrent les inscriptions
+
+- intent: examens
+  examples: |
+    - date des examens
+    - quand sont les examens
+    - planning examens
+    - calendrier des examens
+    - quand passent les examens
+    - dates des épreuves
+    - examens de janvier
+    - examens de juin
+    - les examens c'est quand
+    - résultats des examens
+
+- intent: horaires
+  examples: |
+    - horaires des cours
+    - heure d'ouverture
+    - planning
+    - quels sont les horaires
+    - l'université est ouverte à quelle heure
+    - à quelle heure ouvre la fac
+    - horaires de la faculté
+    - quand ferme l'université
+    - emploi du temps
+
+- intent: bibliotheque
+  examples: |
+    - bibliothèque ouverte
+    - horaires bibliothèque
+    - accès bibliothèque
+    - la bibliothèque est-elle ouverte
+    - quand ouvre la bibliothèque
+    - je veux aller à la bibliothèque
+    - horaires de la biblio
+    - à quelle heure ferme la bibliothèque
+
+- intent: contact
+  examples: |
+    - contact administration
+    - email université
+    - numéro de téléphone
+    - comment contacter l'université
+    - adresse email de la fac
+    - téléphone université
+    - comment joindre un responsable
+    - coordonnées de l'université
+
+- intent: localisation
+  examples: |
+    - où se trouve la fac
+    - localisation bâtiment
+    - campus où
+    - où est le département informatique
+    - comment venir à l'université
+    - adresse de l'université
+    - c'est où la fac
+    - plan du campus
+    - où se trouve le bâtiment A
+
+- intent: aide
+  examples: |
+    - aide
+    - help
+    - que peux-tu faire
+    - assistance
+    - tu peux m'aider
+    - j'ai besoin d'aide
+    - comment tu fonctionnes
+    - qu'est-ce que tu sais faire

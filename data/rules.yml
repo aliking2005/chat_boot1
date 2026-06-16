@@ -1,0 +1,53 @@
+version: "3.1"
+
+rules:
+
+- rule: Répondre salutation
+  steps:
+  - intent: salutation
+  - action: utter_salutation
+
+- rule: Répondre au revoir
+  steps:
+  - intent: au_revoir
+  - action: utter_au_revoir
+
+- rule: Répondre merci
+  steps:
+  - intent: merci
+  - action: utter_merci
+
+- rule: Répondre inscription
+  steps:
+  - intent: inscription
+  - action: utter_inscription
+
+- rule: Répondre examens
+  steps:
+  - intent: examens
+  - action: utter_examens
+
+- rule: Répondre horaires
+  steps:
+  - intent: horaires
+  - action: utter_horaires
+
+- rule: Répondre bibliotheque
+  steps:
+  - intent: bibliotheque
+  - action: utter_bibliotheque
+
+- rule: Répondre contact
+  steps:
+  - intent: contact
+  - action: utter_contact
+
+- rule: Répondre localisation
+  steps:
+  - intent: localisation
+  - action: utter_localisation
+
+- rule: Répondre aide
+  steps:
+  - intent: aide
+  - action: utter_aide

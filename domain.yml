@@ -42,4 +42,8 @@ responses:
     - text: "Le département informatique est au bâtiment A."
 
   utter_aide:
-    - text: "Je peux vous aider sur les inscriptions, examens et horaires."
+    - text: "Je peux vous aider concernant les inscriptions, les examens, les horaires, la bibliothèque et les contacts."
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

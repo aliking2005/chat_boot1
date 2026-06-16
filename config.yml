@@ -3,16 +3,14 @@ version: "3.1"
 language: fr
 
 pipeline:
-  - name: WhitespaceTokenizer
-  - name: RegexFeaturizer
-  - name: LexicalSyntacticFeaturizer
-  - name: CountVectorsFeaturizer
-  - name: DIETClassifier
-    epochs: 100
-  - name: EntitySynonymMapper
+- name: WhitespaceTokenizer
+- name: RegexFeaturizer
+- name: LexicalSyntacticFeaturizer
+- name: CountVectorsFeaturizer
+- name: DIETClassifier
+  epochs: 100
+- name: EntitySynonymMapper
 
 policies:
-  - name: RulePolicy
-  - name: MemoizationPolicy
-  - name: TEDPolicy
-    epochs: 50
+- name: RulePolicy
+assistant_id: 20260615-150358-several-diffraction
