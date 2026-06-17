@@ -7,7 +7,7 @@ COPY . /app
 
 USER root
 
-EXPOSE 10000
+EXPOSE 8000
 
-CMD rasa run --enable-api --cors "*" -p ${PORT:-10000}
+CMD rasa run --enable-api --cors "*" -p ${PORT:-8000}
 EOF
